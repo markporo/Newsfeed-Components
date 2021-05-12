@@ -59,7 +59,7 @@ function articleMaker({ title, date, firstParagraph, secondParagraph, thirdParag
   //Step 2: Still inside `articleMaker`, add an event listener to the span.expandButton.
   //This listener should toggle the class 'article-open' on div.article.
   expandButton.addEventListener("click", function (e) {
-    console.log(e.target);
+    //console.log(e.target);
     article.classList.toggle("article-open");
   });
 

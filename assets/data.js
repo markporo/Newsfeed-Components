@@ -85,13 +85,22 @@ const data = [
             Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
     },
     {
-        title: 'Vue.JS vs. React.Js',
+        title: 'Vue vs. Next',
         date: 'Jan 1st, 2021',
         firstParagraph: `YEP< YEP< YEP>>>>RA RA RA RA `,
 
         secondParagraph: `SURE SURE YEAH OKAY COOL YEAH SURE`,
 
-        thirdParagraph: `BOOOM BOOOM BOOM.  LEt's try Next.JS instead.  Or Wordpress.`
+        thirdParagraph: `BOOOM BOOOM BOOM.  LEt's try React.JS instead.  Or Wordpress.`
+    },
+    {
+        title: 'Syntax differences between PHP and Python',
+        date: 'Jan 8th, 2021',
+        firstParagraph: `RA RA RA RA>>>>RA RA RA RA RA RA RA RA>>>>RA RA RA RA RA RA RA RA>>>>RA RA RA RA RA RA RA RA>>>>RA RA RA RA RA RA RA RA>>>>RA RA RA RA  `,
+
+        secondParagraph: `Sure Sure is one of my favorites`,
+
+        thirdParagraph: `BOOOM BOOOM BOOM. CLACK CLACK CLACK`
     }
 ];
 

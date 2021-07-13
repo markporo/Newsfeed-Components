@@ -42,7 +42,7 @@ function articleMaker({ title, date, firstParagraph, secondParagraph, thirdParag
   // Add innerText
   articleTitle.textContent = title;
   dateP.textContent = date;
-  expandButton.textContent = "+";
+  expandButton.textContent = "read";
   p1.textContent = firstParagraph;
   p2.textContent = secondParagraph;
   p3.textContent = thirdParagraph;
@@ -58,9 +58,16 @@ function articleMaker({ title, date, firstParagraph, secondParagraph, thirdParag
 
   //Step 2: Still inside `articleMaker`, add an event listener to the span.expandButton.
   //This listener should toggle the class 'article-open' on div.article.
-  expandButton.addEventListener("click", function (e) {
+  expandButton.addEventListener("click", function () {
     //console.log(e.target);
     article.classList.toggle("article-open");
+
+    if (expandButton.textContent === "read") {
+      expandButton.textContent = "close"
+    } else {
+      expandButton.textContent = "read"
+    }
+
   });
 
   //Step 3: Don't forget to return something from your function!
